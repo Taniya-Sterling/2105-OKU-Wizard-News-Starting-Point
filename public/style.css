@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
 * {
   box-sizing: border-box;
+  font-family: 'Teko', sans-serif;
+  font-size: large;
 }
 
 body {
   font-family: sans-serif;
+  background-color: #4682B4;
+  
 }
 
 img {
@@ -25,22 +30,29 @@ small {
 }
 
 header {
-  background-color: #6b32e1;
+  font-family: 'Teko', sans-serif;
+  background-color: #0047AB;
   color: #fff;
   padding: 3px;
   height: 26px;
+  text-align: center;
+  height: 5vh;
+  padding: 1px;
 }
 
 header > img {
   margin-right: 10px;
-  width: 20px;
+  width: 10vh;
   height: 20px;
   border: 1px white solid;
   vertical-align: bottom;
+  height: 5vh;
+  padding: 1px;
 }
 
 form {
   padding: 15px;
+  
 }
 
 label {
@@ -63,7 +75,7 @@ textarea {
 }
 
 .news-list {
-  background-color: #f6f6ef;
+  background-color: #F0FFFF;
   width: 85%;
   margin: 12px auto;
   padding-bottom: 25px;
