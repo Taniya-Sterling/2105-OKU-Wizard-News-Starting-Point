@@ -10,7 +10,7 @@ app.use(morgan('dev'));
 
 
 
-const port = process.env.PORT || 1337;
+const PORT = process.env.PORT || 1337;
 
 
 app.listen(PORT, () => {
